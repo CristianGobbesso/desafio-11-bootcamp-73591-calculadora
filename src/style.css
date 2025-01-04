@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f3f3f3;
+  }
+  
+  .calculadora {
+    width: 300px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .display {
+    height: 60px;
+    background-color: #eaeaea;
+    text-align: right;
+    font-size: 2rem;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+  }
+  
+  .btn {
+    padding: 20px;
+    font-size: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #333; /* Fondo gris oscuro al pasar el mouse */
+  }
+  
+  .operador {
+    background-color: #000; /* Fondo negro para operadores */
+    color: #fff;
+  }
+  
+  .igual {
+    background-color: #000; /* Fondo negro para el botón igual */
+    color: #fff;
+  }
+  
